@@ -1,0 +1,24 @@
+ numero1:inteiro
+ numero2:inteiro
+ numero3:inteiro
+ resultado:inteiro
+
+
+
+Escreval("Escolha sua primeira nota:")
+ leia(numero1)
+ Escreval("Escolha sua segunda nota:")
+ leia(numero2)
+ Escreval("Escolha sua terceira nota")
+ leia(numero3)
+ resultado <- numero1,numero2,numero3 \ 5
+
+
+ se(resultado >= 5 )entao
+ Escreval("Voce foi aprovado")
+
+ senao(resultado < 5) entao
+ Escreval("Voce foi reprovado")
+ 
+
+ fimse

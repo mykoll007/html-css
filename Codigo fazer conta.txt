@@ -1,0 +1,52 @@
+Escreve = ReadtoLine
+leia = ReadToWrite
+Escreval= Resultado
+
+
+
+
+
+Escreval("Faça uma divisão.")
+  Escreval("Qual o primeiro número da divisão?:")
+  leia(valor1)
+  Escreval("Qual o segundo:")
+  leia(valor2)
+  resultado <- valor1 \ valor2
+  Escreval("O resultado é:" , resultado)
+
+
+  Escreval("Faça uma Subtração.")
+  Escreval("Qual o primeiro numero da subtracao?:")
+  leia (valor1)
+  Escreval("Qual o segundo numero da subtracao?:")
+  leia (valor2)
+  resultado <- valor1 - valor2
+  Escreval ("O resultado é:" ,resultado )
+  
+  Escreval("Faça uma soma.")
+  Escreval("Qual o primeiro numero da adição?:")
+  leia (valor1)
+  Escreval("Qual o segundo numero da adição?:")
+  leia (valor2)
+  resultado <- valor1 + valor2
+  Escreval ("O resultado é:" , resultado)
+  
+  Escreval("Faça uma multiplicação.")
+  Escreval("Qual o primeiro numero da multiplicação?:")
+  leia (valor1)
+  Escreval("Qual o segundo numero da multiplicação?:")
+  leia (valor2)
+  resultado <- valor1 * valor2
+  Escreval("O resultado é:" , resultado)
+  Escreval("Deseja continuar?")
+  leia(opcao)
+  
+  Escreval("Faça uma multiplicação.")
+  Escreval("Qual o primeiro numero da multiplicação?:")
+  leia (valor1)
+  Escreval("Qual o segundo numero da multiplicação?:")
+  leia (valor2)
+  resultado <- valor1 * valor2
+  Escreval("O resultado é:" , resultado)
+  Escreval("Deseja continuar?")
+  leia(opcao)
