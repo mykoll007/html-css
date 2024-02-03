@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações</title>
+    <style>
+     #cores{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        animation-name: cores;
+        animation-duration: 4s;
+     } 
+     @keyframes cores{
+        from{background-color: blue;}
+        to{background-color: yellow;}
+     }  
+
+     #coresMove{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        position: relative;
+        animation-name: movimento;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+         
+     }
+     @keyframes movimento{
+        0%{background-color: green; left: 0px; top: 0px;}
+        25%{background-color: blue; left: 200px; top: 0px; }
+        50%{background-color: brown; left: 200px; top: 200px}
+        75%{background-color: black; left: 0px; top: 200px;}
+        100%{background-color: green; left: 0px; top: 0px;}
+     }
+     #rota{
+        width: 50px;
+        height: 50px;
+        background-color: blueviolet;
+        color: azure;
+        padding: 30px;
+        animation-name: rota;
+        animation-duration: 5s; 
+        animation-iteration-count: infinite;   
+     }
+     @keyframes rota{
+        0%{
+            transform: rotate(0deg);
+            left: 0px;
+        }
+        25%{transform: rotate(20deg);left: 0px;}
+        50%{transform: rotate(0deg);left: 500px;}
+        100%{transform: rotate(-360deg);}
+     }
+    </style>
+</head>
+<body>
+    <h1>O que são animações CSS?</h1>
+    <p>Você pode alterar quantas propriedades CSS quiser, quantas vezes quiser.</p>
+    <p>Para usar animação CSS, você deve primeiro especificar alguns quadros-chave para a animação.</p>
+    <p>Os quadros-chave contêm quais estilos o elemento terá em determinados momentos.</p>
+    <h2>A regra @keyframes</h2>
+    <p>Quando você especifica estilos CSS dentro da @keyframes regra, a animação muda gradualmente do estilo atual para o novo estilo em determinados momentos.</p>
+    <p>Para que uma animação funcione, você deve vinculá-la a um elemento.</p>
+    <h2>Execute a animação na direção reversa ou em ciclos alternativos</h2>
+    <p>A animation-dirextionpropriedade especifica se uma animação deve ser reproduzida para frente,para trás ou em ciclos alternados.</p>
+    <p>A propriedade Animation-Direction pode ter os seguintes valores:</p>
+    <ul>
+        <li>normal- A animação é reproduzida normalmente (avança).Este é o padrão</li>
+        <li>reverse- A animação é reproduzida na direção reversa(para trás)</li>
+        <li>alternate- A animação é reproduzida primeiro para frente e depois para trás</li>
+        <li>alternate-reverse- A animação é reproduzida primeiro para trás e depois para frente</li>
+    </ul>
+    <h3>Exemplos:</h3>
+    <div id="cores"></div>
+    <hr>
+    <div id="coresMove"></div>
+    <hr>
+    <div id="rota">Web</div>
+
+</body>
+</html>
