@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: rgb(207, 203, 203);
+        }
+
+        img {
+            width: 280px;
+            height: 150px;
+        }
+
+        p {
+            font-size: small;
+        }
+
+        #container {
+            /* background-color: gray; */
+            /* position: absolute; */
+            max-width: 900px;
+            margin: 0 auto;
+            /* width: 1000px;
+        height: 1110px; */
+            /* margin: 0 400px;
+        padding-left: 100px;
+        padding-right: 100px; */
+
+        }
+
+        .addhover:hover {
+            animation-name: cores;
+            background-color: rgb(153, 138, 138);
+            animation-duration: 0.5s;
+        }
+
+
+        @keyframes cores {
+            from {
+                background-color: rgb(153, 138, 138);
+            }
+
+            to {
+                background-color: rgb(110, 101, 101);
+            }
+
+        }
+
+        .conteudo {
+            display: flex;
+
+        }
+
+        .tudo {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-container {
+            display: flex;
+            /* background-color: rgb(202, 13, 193);  */
+            margin-left: 30px;
+
+        }
+
+        .flex-container>div {
+            background-color: rgb(153, 138, 138);
+            margin: 5px;
+            padding: 13px;
+            font-size: 15px;
+            color: white;
+            border-radius: 2px;
+        }
+
+        .container-tabela1 {
+            margin-right: 27px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h2>Modelo de página</h2>
+        <hr>
+        <h3>Página de teste</h3>
+        <div class="flex-container">
+            <div class="addhover">Carros</div>
+            <div class="addhover">Pessoas</div>
+            <div class="addhover">Frutas</div>
+        </div>
+
+        <div class="conteudo">
+            <div class="container-tabela0 tudo ">
+                <div class="container-itens-tabela tudo">
+                    <img src="exercicio/img/carro-antigo.webp" />
+                    <h3>Carros antigos</h3>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration.
+                    </p>
+                </div>
+
+                <div class="container-itens-tabela tudo">
+                    <img src="exercicio/img/citricas.png" />
+                    <h3>Frutas Cítricas</h3>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration.
+                    </p>
+                </div>
+                <div class="container-itens-tabela tudo">
+                    <img src="exercicio/img/adultos.jpg" />
+                    <h3>Adultos</h3>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-tabela1">
+                <div class="container-itens-tabela1 tudo">
+                    <img src="exercicio/img/carroNovo.jpg" />
+                    <h3>Carros novos</h3>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration.
+                    </p>
+                </div>
+                <div class="container-itens-tabela1 tudo">
+                    <img src="exercicio/img/frutas-vermelhas.png" />
+                    <h3>Frutas vermelhas</h3>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration.
+                    </p>
+                </div>
+                <div class="container-itens-tabela1 tudo">
+                    <img src="exercicio/img/crianca.png" />
+                    <h3>Crianças</h3>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-tabela2">
+                <div class="container-itens-tabela2 tudo">
+                    <img src="exercicio/img/populares.jpg" />
+                    <h3>Carros populares</h3>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration.
+                    </p>
+                </div>
+                <div class="container-itens-tabela2 tudo">
+                    <img src="exercicio/img/verdes.jpg" />
+                    <h3>Frutas verdes</h3>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration.
+                    </p>
+                </div>
+                <div class="container-itens-tabela2 tudo">
+                    <img src="exercicio/img/idosos.webp" />
+                    <h3>Idosos</h3>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration.
+                    </p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
